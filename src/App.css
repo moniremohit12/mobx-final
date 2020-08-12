@@ -1,0 +1,34 @@
+
+.infoitem {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.item-actions {
+    margin-inline-end: 1em;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.dont-show {
+    display: none !important;
+}
+
+.viwe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.destry {
+    padding-inline-end: 2em;
+    cursor: pointer;
+}
+.destry i {
+    color: red
+}
